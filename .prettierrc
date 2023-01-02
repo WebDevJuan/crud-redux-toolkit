@@ -1,0 +1,7 @@
+{
+    "useTab": true,
+    "singleCuote": true,
+    "jsxSingleCuote": true,
+    "arrowParens": "avoid"
+  }
+  
