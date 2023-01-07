@@ -20,23 +20,23 @@ Este es un Crud de una lista de tareas sin estilos utilizando ReactJS.
 
    - Comando de instalación:
 			   
-			npm i -D eslint (activar extensión eslint)
+	npm i -D eslint (activar extensión eslint)
 			   
    - Instalar extensión ESLint
    
    - Comando para configurar eslint: 
 
-			npx eslint --init 
+	npx eslint --init 
 			
      
    - Podemos probar para ver los errores de un fichero con el siguiente comando:
     
-		    	npx lint src/...
+	npx lint src/...
 		    
 		    
    - Podemos probar para solucionar los errores de un fichero
    
-		     	npx lint src/... --fix
+	npx lint src/... --fix
 		     
 
    **NOTAS:** 
@@ -55,11 +55,11 @@ Este es un Crud de una lista de tareas sin estilos utilizando ReactJS.
    - Crear fichero .prettierc
    - Comando de instalación: 
   
-			 npm i -D prettier (activar extensión eslint)
+	npm i -D prettier (activar extensión eslint)
 			 
    - Comando para formatear un archivo: 
    
-			 npx prettier src/... ()
+	npx prettier src/... ()
 			   
    - Opciones de settings (file/preferences/settings/ -> format on save - format file on save (checked) )
    - Intalar extensión prettier
