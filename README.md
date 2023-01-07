@@ -27,14 +27,17 @@ Este es un Crud de una lista de tareas sin estilos utilizando ReactJS.
    - Comando para configurar eslint: 
 
 			npx eslint --init 
+			
      
     - Podemos probar para ver los errores de un fichero con el siguiente comando:
     
-		    npx lint src/...
+		    	npx lint src/...
+		    
 		    
     - Podemos probar para solucionar los errores de un fichero
    
-		     npx lint src/... --fix
+		     	npx lint src/... --fix
+		     
 
    **NOTAS:** 
    
