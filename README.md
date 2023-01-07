@@ -20,7 +20,7 @@ Este es un Crud de una lista de tareas sin estilos utilizando ReactJS.
 
    - Comando de instalación:
 			   
-			 npm i -D eslint (activar extensión eslint)
+			npm i -D eslint (activar extensión eslint)
 			   
    - Instalar extensión ESLint
    
@@ -29,12 +29,12 @@ Este es un Crud de una lista de tareas sin estilos utilizando ReactJS.
 			npx eslint --init 
 			
      
-    - Podemos probar para ver los errores de un fichero con el siguiente comando:
+   - Podemos probar para ver los errores de un fichero con el siguiente comando:
     
 		    	npx lint src/...
 		    
 		    
-    - Podemos probar para solucionar los errores de un fichero
+   - Podemos probar para solucionar los errores de un fichero
    
 		     	npx lint src/... --fix
 		     
@@ -43,12 +43,12 @@ Este es un Crud de una lista de tareas sin estilos utilizando ReactJS.
    
    - Podemos añadir la siguiente confg al extends 
         
-		        extends: [
-		            'plugin:react/recommended',
-		            'plugin:react/jsx-runtime', -> NEW
-		            'standard',
-		            'eslint-config-prettier' -> NEW // Esto permitirá que prevalezcan las reglas 			        de prettier sobre las del eslint
-		        ],
+	extends: [
+		'plugin:react/recommended',
+		'plugin:react/jsx-runtime', -> NEW
+		'standard',
+		'eslint-config-prettier' -> NEW // Esto permitirá que prevalezcan las reglas de prettier sobre las del eslint
+		 	],
 
 
 ## Instalar Prettier
