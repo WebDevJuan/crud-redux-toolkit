@@ -62,7 +62,11 @@ Este es un Crud de una lista de tareas sin estilos utilizando ReactJS.
 	npx prettier src/... ()
 			   
    - Opciones de settings (file/preferences/settings/ -> format on save - format file on save (checked) )
-   - Intalar extensión prettier
+   - Instalar extensión prettier
+   - Instalar eslint-config-prettier
+
+   npm i -D eslint-config-prettier
+
    - Definir formateador por defecto botón derecho sobre un fichero (format with -> default formatter)
     
 ## Configurar las opciónes de terminal en el package.json
